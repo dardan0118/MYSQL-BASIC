@@ -23,7 +23,7 @@ SELECT `name`, `age`, `club` FROM `players` WHERE `nationality`= 'portugal' AND 
 -- Opdracht 12
 SELECT `name`, `club` FROM `players` WHERE `age` >40 and `wage` > 10000;
 -- Opdracht 13
-
+SELECT * FROM `players` WHERE `nationality`= 'netherlands' and (`club`='fc groningen' or `club` = 'ajax')
 -- Opdracht 14
 SELECT * FROM `players` WHERE `nationality` = 'england' and `age`>20 and `wage`>10000
 -- Opdracht 15
